@@ -1,0 +1,117 @@
+.timeselector-box{
+	user-select: none;
+	background: #f6f6f6;
+	padding: 10px;
+}
+.timeselector-box button{
+	cursor: pointer;
+	    color: #fff;
+	    display: inline-block;
+	    width: 70px;
+	    height: 30px;
+	    background: #5e88ce;
+	    text-align: center;
+	    line-height: 28px;
+	    margin-right: 10px;
+	    border: none;
+}
+.timeselector-box .select-mask{
+	background: rgba(243,178,23,.4);
+	position: absolute;
+	pointer-events: none;
+	display: none;
+}
+.timeselector-table .time-item.is-disable{
+	cursor: not-allowed;
+	background: rgba(250, 226, 249,.4);
+}
+.timeselector-box-bd{
+	position: relative;
+}
+.timeselector-box-hd{
+	padding: 10px 0;
+	overflow: hidden;
+}
+.timeselector-box-ft{
+	padding: 10px 0;
+	font-size: 14px;
+	color: #666;
+}
+.timeselector-box-ft dd{
+	margin: 0;
+}
+.timeselector-box-ft button + button{
+	margin-left: 15px;
+}
+.timeselector-tips{
+	font-size: 12px;
+	color: #666;
+	float: left;
+}
+.timeselector-table{
+	border-collapse:collapse;
+	color: #3d3d52;
+}
+
+.timeselector-table tr,td,th{
+   border:1px solid #dcdcdc;
+   background: #fff;
+   text-align: center;
+   font-size: 14px;
+}
+.timeselector-table th,
+.timeselector-table td{
+	width: 22px;
+	height: 22px;
+}
+.timeselector-table th.first-head{
+	width: 60px;
+	position: relative;
+}
+
+.timeselector-table th.first-head .line{
+	transform: rotate(38deg);
+	width: 80px;
+	height: 1px;
+	background: #dcdcdc;
+	display: block;
+	position: absolute;
+	top: 24px;
+	left: -9px;
+}
+.timeselector-table th.first-head>div:first-child{
+	margin-left: 25px;
+}
+.timeselector-table th.first-head>div:last-child{
+	margin-right: 25px;
+}
+.timeselector-table td.is-active{
+	background: #dcfacf;
+	border: 1px solid #c2e8a6;
+}
+.timeselector-table .time-item{
+	cursor: pointer;
+}
+.timeselector-table td.is-select{
+	background: #f3b217;
+	border: 1px solid #f3b217;
+}
+
+.timeitem-example-wrap{
+	float: right;
+	font-size: 12px;
+	color: #8c8c94;
+}
+.timeitem-example{
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	border: 1px solid #dcdcdc;
+    vertical-align: bottom;
+    margin-left: 5px;
+    margin-right: 2px;
+}
+.timeitem-example.is-active{
+	background: #dcfacf;
+	border: 1px solid #c2e8a6;
+}
