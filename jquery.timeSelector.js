@@ -74,7 +74,7 @@
         this.init();
     }
 
-    TimeSelector.timeRange.version = "1.0.0";
+    TimeSelector.version = "1.0.0";
 
     /**
      * 计算区间
